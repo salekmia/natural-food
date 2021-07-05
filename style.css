@@ -282,3 +282,19 @@ span {
 .input a {
     margin-left: 100px;
 }
+
+
+
+/* Footer Section */
+footer {
+    background: #6047EC;
+    text-align: center;
+}
+
+footer .container {
+    padding: 50px 0;
+}
+
+footer .container p {
+    line-height: 30px;
+}
