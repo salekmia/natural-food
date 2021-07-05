@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    padding: 0 50px;
+}
+
+
+/* Header Section */
+/* nav bar for extra feture */
+.nav {
+    background-color: #6047EC;
+    padding: 15px 0;
+}
+
+.nav .container{
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo h2 {
+    padding: 5px 0;
+}
+
+.logo a {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+.menu ul li {
+    padding: 15px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+}
+
+
+.hero {
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.hero .container {
+    display: flex;
+}
+
+.hero-left {
+    width: 50%;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    line-height: 65px;
+}
+
+.hero-left p {
+    margin: 2px 0;
+}
+
+span {
+    color: fuchsia;
+}
+
+.link-button {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to right,#7b4397, #dc2430);
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-right img {
+    width: 70%;
+    float: right;
+}
+
