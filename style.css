@@ -147,3 +147,55 @@ span {
     margin: 20px 0;
     line-height: 30px;
 }
+
+
+/* Recipi Section */
+.recipi-bg {
+    background: #fff;
+    padding: 80px 0;
+}
+
+#recipi h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#recipi p {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#recipi .container {
+    display: flex;
+}
+
+#recipi .container div {
+    padding: 20px 30px;
+    box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.534);
+}
+
+#recipi .container div h3 {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+#recipi .container div p {
+    text-align: left;
+}
+
+#recipi img {
+    width: 100%;
+}
+
+.recipi-one {
+    margin-right: 10px;
+}
+
+.recipi-two {
+    margin: 0 10px;
+}
+
+.recipi-three {
+    margin-left: 10px;
+}
