@@ -199,3 +199,86 @@ span {
 .recipi-three {
     margin-left: 10px;
 }
+
+
+/* Subscribe Section */
+#subscribe {
+    padding: 50px 0;
+}
+
+.subscribe-items {
+    display: flex;
+    box-shadow: 5px 5px 15px gray;
+    padding: 50px 0;
+}
+
+
+
+.subscribe-items div {
+    width: 33.33%;
+    text-align: center;
+}
+
+#subscribe .container div h3 {
+    font-size: 38px;
+}
+
+
+/* Newslater Section */
+.newslater-bg {
+    background-image: linear-gradient(to left, #A8EB12, #051937)
+}
+
+.newslater-items {
+    display: flex;
+    padding: 50px 20px;
+}
+
+.list {
+    width: 50%;
+    color: #fff;
+    padding-top: 40px;
+    text-align: right;
+    margin-right: 80px;
+}
+
+.list h2 {
+    font-size: 32px;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.list ul li {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.input {
+    width: 50%;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.input .input-item{
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input a {
+    margin-left: 100px;
+}
